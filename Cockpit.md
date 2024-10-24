@@ -38,7 +38,7 @@ You would find the user you are logged on as, has a sudo privilege on a dpkg fil
 
 With a little search on gtfobins, a way around this escalation 
 
-![[Pasted image 20240921232226.png]]
+![](./Pasted image 20240921232226.png)
 
 Okay, we have to use the fpm(fotran package manager) to create a deb file on our host system and transfer it to the target machine. Before that we can install fpm on our host with the command below;
 
